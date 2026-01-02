@@ -7,7 +7,7 @@ export default defineConfig({
   // GitHub Pages では https://username.github.io/repo-name/ のようにサブパスになる
   // リポジトリ名を設定してください（例: '/winter-arc-tracker/'）
   // ローカル開発時は '/' のまま
-  base: process.env.NODE_ENV === 'production' ? '/winter-arc-tracker/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/Winter-Arc-/' : '/',
   
   plugins: [
     react(),
