@@ -1,5 +1,5 @@
 import React from 'react';
-import { AlertTriangle, Calendar, CheckCircle2 } from 'lucide-react';
+import { AlertTriangle } from 'lucide-react';
 import { Phase, WINTER_ARC_START, WINTER_ARC_END } from './types';
 import { differenceInDays, format, isWithinInterval } from 'date-fns';
 import clsx from 'clsx';
