@@ -1,0 +1,32 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#0f172a"/>
+  
+  <!-- Snowflake/Winter symbol -->
+  <g transform="translate(256, 256)">
+    <!-- Center circle -->
+    <circle r="20" fill="#A5F3FC"/>
+    
+    <!-- Main arms -->
+    <line x1="0" y1="-100" x2="0" y2="100" stroke="#A5F3FC" stroke-width="12" stroke-linecap="round"/>
+    <line x1="-100" y1="0" x2="100" y2="0" stroke="#A5F3FC" stroke-width="12" stroke-linecap="round"/>
+    <line x1="-70" y1="-70" x2="70" y2="70" stroke="#A5F3FC" stroke-width="12" stroke-linecap="round"/>
+    <line x1="-70" y1="70" x2="70" y2="-70" stroke="#A5F3FC" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Branch details -->
+    <g transform="rotate(45)">
+      <line x1="0" y1="-80" x2="-25" y2="-60" stroke="#A5F3FC" stroke-width="8" stroke-linecap="round"/>
+      <line x1="0" y1="-80" x2="25" y2="-60" stroke="#A5F3FC" stroke-width="8" stroke-linecap="round"/>
+      <line x1="0" y1="80" x2="-25" y2="60" stroke="#A5F3FC" stroke-width="8" stroke-linecap="round"/>
+      <line x1="0" y1="80" x2="25" y2="60" stroke="#A5F3FC" stroke-width="8" stroke-linecap="round"/>
+      <line x1="-80" y1="0" x2="-60" y2="-25" stroke="#A5F3FC" stroke-width="8" stroke-linecap="round"/>
+      <line x1="-80" y1="0" x2="-60" y2="25" stroke="#A5F3FC" stroke-width="8" stroke-linecap="round"/>
+      <line x1="80" y1="0" x2="60" y2="-25" stroke="#A5F3FC" stroke-width="8" stroke-linecap="round"/>
+      <line x1="80" y1="0" x2="60" y2="25" stroke="#A5F3FC" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Text -->
+  <text x="256" y="380" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#A5F3FC" text-anchor="middle">WINTER ARC</text>
+  <text x="256" y="420" font-family="Arial, sans-serif" font-size="24" fill="#64748b" text-anchor="middle">2026</text>
+</svg>
